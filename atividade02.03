@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:green;">
+<h1>Algumas formatações </h1>
+<b>Texto em negrito</b></br>
+<strong>Texto realçado!</strong>
+<i>Itálico</i>
+</body>
+</html>
