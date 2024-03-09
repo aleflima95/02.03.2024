@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <title>CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #9b9b9b;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+
+/* Layout responsivo - do menu e do conteudo dentro da seção.*/
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.menu{
+    width: 100%;
+    display:flex;
+    gap: 650px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h2>As 3 cidades mais populosas do mundo</h2>
+</header>
+<div class="menu">
+    <li><a href="#">Araras</a></li> 
+    <li><a href="#">Limeira</a></li>
+    <li><a href="#">Rio Claro</a></li>
+</div>
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">Araras</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Araras</h1>
+        <p>Dados da cidade de Araras</p>
+        <p>Mais informações sobre a cidade e uma imagem</p>
+    </article>
+</section>
+<hr>
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">Limeira</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Limeira</h1>
+        <p>Dados da cidade de Araras</p>
+        <p>Mais informações sobre a cidade e uma imagem</p>
+    </article>
+</section>
+<hr>
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">Rio Claro</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Rio Claro</h1>
+        <p>Dados da cidade de Araras</p>
+        <p>Mais informações sobre a cidade e uma imagem</p>
+    </article>
+</section>
+
+<footer>
+    <p>Rodapé</p>
+</footer>
+
+</body>
+</html>
