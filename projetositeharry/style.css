@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-family: "Kode Mono", monospace;
+  font-size: 100px;
+  color: white;
+}
+h2{
+    font-family: "Kode Mono", monospace;
+  font-size: 30px;
+  color: white; 
+}
