@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <title>CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-image: url('mundi.jpg');
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: rgb(255, 210, 210);
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: white;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-image: url('mundi.jpg');
+    padding: 10px;
+    text-align: center;
+    color:black;
+}
+
+/* Layout responsivo - do menu e do conteudo dentro da seção.*/
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.menu{
+    width: 100%;
+    display:flex;
+    gap: 650px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h2>As 3 cidades mais populosas do mundo</h2>
+</header>
+<section>
+    <nav>
+        <ul>
+            <h2>Curiosidades</h2>
+            <center><h2><a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o">Japão</a></h2></center>
+            <img src="japao.png" alt="japao" style="float:right;width: 350px;height: 200px;">
+            <h1>Bandeira Oficial do Japão desde 1870</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="play.png" alt="solnascente" style="float:right;width: 350px;height: 200px;">
+            <h1>1° PlayStation foi lançado em 1995</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="esquilo.jpg.png" alt="esquilo" style="float:right;width: 350px;height: 200px;">
+            <h1>Animal comum: Esquilo Vermelho</h1>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Tóquio</h2>
+        <br>
+        <h1>Dados da cidade</h1>
+        <ol>
+            <li><strong>População -</strong> 14.26 milhões</li>
+            <li><strong>Continente -</strong> Ásia</li>
+            <li><strong>Moeda -</strong> Yen</li>
+            </ol>
+            
+            <br>            
+        <img src="toquio.jpg" alt="toquio" style="float:right;width: 350px;height: 200px;">
+        <p>Oficialmente Metrópole de Tóquio é a capital do Japão e uma das 47 prefeituras do país. Situa-se em Honshu, a maior ilha do arquipélago. Em 2015, Tóquio possuía mais de 13,4 milhões de habitantes, cerca de 11% da população do país, e a Região Metropolitana de Tóquio possui mais de 37 milhões de habitantes, o que torna a aglomeração de Tóquio, independentemente de como se define, como a área urbana mais populosa do mundo. Um de seus monumentos mais famosos é a Torre de Tóquio. Foi fundada em 1457, com o nome de Edo ou Yedo. Tornou-se a capital do Império em 1868 com a atual designação.</p>
+        <br>
+        <hr>
+        <h2>Comidas Típicas</h2>
+        <br>
+            <p>
+                <img src="sushi.jpg" alt="sushi" style="float:left;width: 200px;height: 150px;">
+                <h2>Sushi</h2>
+                O sushi é uma iguaria ancestral, tradicionalmente japonesa, que se estendeu à gastronomia
+                contemporânea global. Originalmente ele se baseia na preservação do peixe no arroz mergulhado em
+                molho de vinagre, açúcar e sal. Engana-se, porém, quem acredita que somente a carne do mar pode
+                compor este prato, particularmente em sua modalidade crua.
+                <br>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <img src="ramen.jpg" alt="ramen" style="float:left;width: 200px;height: 150px;">
+                <h2>Rámen</h2>
+                O ramen é um prato tradicional do leste asiático, que consiste em uma tigela de macarrão,
+                um caldo (dashi) e ingredientes adicionais (chamados de toppings). Apesar de ter surgido na China, a
+                receita só se tornou popular no Japão, durante a Segunda Guerra Mundial. Desde de então ela
+                conquistou o mundo, incluindo o Brasil.
+                <br>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <img src="tempura.jpg" alt="tempura" style="float:left;width: 200px;height: 150px;">
+                <h2>Tempura</h2>
+                Tempura é um prato clássico da culinária japonesa. Consiste de pedaços fritos de vegetais ou mariscos envoltos num
+                polme fino. A fritura é realizada em óleo muito quente, durante apenas cerca de
+                dois ou três minutos.
+            </p>
+        <br>
+        </article>
+</section>
+<hr>
+<section>
+    <nav>
+        <ul>
+            <center><h2><a href="https://pt.wikipedia.org/wiki/%C3%8Dndia">India</a></h2></center>
+            <img src="india.png" alt="india" style="float:right;width: 350px;height: 200px;">
+            <h1>Bandeira oficial da India desde 1947</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="Brahma.jpg" alt="Brahma" style="float:right;width: 350px;height: 200px;">
+            <h1>A India tem cerca de 3 mil Deuses (Brahma)</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="vaca.jpg" alt="vaca" style="float:right;width: 350px;height: 200px;">
+            <h1>Animal Sagrado: Vaca de Shiva (Nandi)</h1>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Déli</h1>
+        <br>
+        <h1>Dados da cidade</h1>
+        <ol>
+            <li><strong>População -</strong> 26,50 milhões</li>
+            <li><strong>Continente -</strong> Ásia</li>
+            <li><strong>Moeda -</strong> Rúpia Indiana</li>
+            </ol>
+            
+            <br>   
+        <img src="deli.jpg" alt="deli" style="float:right;width: 350px;height: 200px;">
+        <p>Deli, Déli ou Delhi, conhecida localmente como Dilli, é a segunda maior e mais importante cidade da Índia, atrás apenas de Bombaim. Situada no norte do país, engloba a região de Nova Deli (em hindi: Ni Dilli), a capital do país. Com uma população estimada em 2011 em pouco mais de 11 milhões de habitantes, a cidade de Deli figura a segunda maior cidade da Índia, e a oitava maior do mundo — porém se consideramos seu complexo metropolitano expandido, conhecido como a Região da Capital Nacional (TCN), que engloba partes dos estados de Haryana, Uttarakhand, Utar Pradexe e Rajastão, a população da cidade sobe para 23,2 milhões de habitantes.</p>
+        <br>
+        <hr>
+        <h2>Comidas Típicas</h2>
+        <br>
+        <p>
+            <img src="Butter_Chicken.jpg" alt="Butter_Chicken" style="float:left;width: 200px;height: 150px;">
+            <h2>Butter Chicken</h2>
+            O frango é uma proteína muito utilizada nas receitas indianas. Feito de cubos de
+            frango marinados em molho de iogurte e especiarias, o butter chicken é cozido em
+            molho de tomate junto à manteiga ghee, que ganhou popularidade no Brasil recentemente.
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <img src="chaat.jpg" alt="chaat" style="float:left;width: 200px;height: 150px;">
+            <h2>Chaat</h2>
+            O chaat é uma massa frita com ingredientes variados, tais como arroz, batata,
+            pasta de pimenta, cebola, coentro e molho de tamarindo. Essa receita é bem
+            popular em Mumbai, uma das cidades mais conhecidas da Índia.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <img src="naan.jpg" alt="naan" style="float:left;width: 200px;height: 150px;">
+            <h2>Naan</h2>
+            Naan é um acompanhamento que lembra o pão árabe, receita com a qual já
+            estamos familiarizados aqui no Brasil. Ele é feito com água, fermento e farinha e seu
+            formato é circular e achatado. Também podem ser adicionados alho e hortelã à receita.
+        </p>
+    <br>
+    </article>
+</section>
+<hr>
+<section>
+    <nav>
+        <ul>
+            <center><h2><a href="https://pt.wikipedia.org/wiki/China">China</a></h2></center>
+            <img src="china.png" alt="china" style="float:right;width: 350px;height: 200px;">
+            <h1>Bandeira oficial da China desde 1949</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="sorvete.jpg" alt="sorvete" style="float:right;width: 350px;height: 200px;">
+            <h1>A China inventou o sorvete há 4 mil anos atrás</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="chines.jpg" alt="chines" style="float:right;width: 350px;height: 200px;">
+            <h1>Animal Sagrado: Chinês é o idioma e mandarim é um dialeto</h1>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Xangai</h1>
+        <br>
+        <h1>Dados da cidade</h1>
+        <ol>
+            <li><strong>População -</strong> 24.87 milhões</li>
+            <li><strong>Continente -</strong> Ásia</li>
+            <li><strong>Moeda -</strong> Yuan</li>
+            </ol>
+            <br>  
+        <img src="xangai.jpg" alt="xangai" style="float:right;width: 350px;height: 200px;">
+        <p>Apelidada de "Nova York da Ásia" e também considerada a grande locomotiva comercial chinesa, Xangai é a metrópole mais cosmopolita e moderna do país. Conta com uma arquitetura repleta de edifícios futuristas, ruas largas, luzes coloridas de néon, e um intenso vai e vem de carros e pessoas. Há muitas opções de lazer e entretenimento. Banhada pelo Pacífico e cortada pelo rio Huangpu, a cidade se divide em duas grandes regiões: o lado oeste, chamado Bund, representa a velha Xangai, onde ficam os pontos históricos, os melhores restaurantes e a vida noturna. Já no leste, eis Pudong, a área nova e centro financeiro da cidade.</p>
+        <br>
+        <hr>
+        <h2>Comidas Típicas</h2>
+        <br>
+        <p>
+            <img src="pequim.jpg" alt="pequim" style="float:left;width: 200px;height: 150px;">
+            <h2>Pato à Pequim</h2>
+            Um dos pratos mais tradicionais da China surgiu na dinastia Yuan e era muito servido nas cortes imperiais.
+            A princípio o Pato à Pequim era preparado com temperos e molhos específicos e depois era levado ao forno com especiarias para ser assado. 
+            Em seguida, era cortado em fatias e acompanhado com crepes muitos finos, hoje em
+            dia, é servido com molho hoisin, cebolas verdes e panquecas finas. 
+            O prato teve algumas alterações durante a dinastia Ming e a partir desse momento
+            virou uma febre no país e se tornou mundialmente conhecido e apreciado.
+            <br>
+            <br>
+            <hr>
+            <br>
+            <img src="zong.jpg" alt="zong" style="float:left;width: 200px;height: 150px;">
+            <h2>Zong Zi</h2>
+            Um prato popularmente conhecido na China e afirmam que sua criação foi no Festival
+            Duanwu que são corridas de barcos-dragão e para proteger o rio começaram a jogar
+            pacotes de arroz na água. 
+            Durante o festival esse prato é bastante consumido para preservar a tradição e homenagear o poeta Qu Yuan. 
+            O Zong Zi é um arroz com textura pastosa temperado com óleo de pimenta, gengibre,
+            molho de soja e óleo de amendoim, e é cozinhado em folhas de cana.
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <img src="porco.jpg" alt="porco" style="float:left;width: 200px;height: 150px;">
+            <h2>Porco Agridoce</h2>
+            O Porco Agridoce é ícone da culinária chinesa e é o tão famoso prato que surgiu na
+            dinastia Han. O preparo do prato consiste na carne de porco temperada com vinagre e mel.
+            Após a dinastia Tang o prato ganhou mais destaque e outros ingredientes foram acrescentados, são eles: abacaxi e pimentões.
+            Atualmente, é muito servido com arroz, os mais tradicionais preferem apreciar somente
+            a carne de porco e essa combinação do doce e azedo tem como princípio a medicina
+            tradicional por causa do equilíbrio dos cinco sabores.
+        </p>
+    
+    </article>
+</section>
+<hr>
+
+
+<footer>
+    <h3>Bora conhecer um desses Países?</h3>
+    <p><a href="https://www.google.com/travel/flights?sca_esv=8b94fdf9c54254b4&output=search&q=flights&source=lnms&mode_promoted=true&impression_in_search=true">Clique aqui e agenda seu próximo destino !!!</a></p>
+    <p style="font-size:100px">&#127757;</p>
+</footer>
+
+</body>
+</html>
